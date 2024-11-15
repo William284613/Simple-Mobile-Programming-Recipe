@@ -1,0 +1,82 @@
+/* styles.css */
+
+body {
+  background-image: url('../images/silverware.jpg');
+  /* Replace with the actual path to your image */
+  background-repeat: repeat;
+  /* Repeat the image in both directions */
+  background-attachment: fixed;
+  /* Keep the background fixed when scrolling */
+  color: #404040;
+  font-family: Georgia, Garamond, serif;
+  font-size: 11pt;
+}
+
+
+h1,h2,h3,h4,h5,h6 {
+  text-decoration: underline;
+  color: #A4A400;
+  background-color: #F0F0F0;
+  font-family: 'Lucida Sans Unicode', Helvetica, Arial, sans-serif;
+  font-size: 18pt;
+  letter-spacing: 0.25em; /* Add 0.25em horizontal spacing between letters */
+  /*display: inline;*/
+}
+
+h1.grandma {
+  text-align: center;
+  font-size: 22pt;
+  font-weight: bold;
+  text-decoration: underline;
+  letter-spacing: 0.25em;
+  /* Add 0.25em horizontal spacing between letters */
+  color: #A4A400;
+  background-color: #F0F0F0;
+  font-family: 'Lucida Sans Unicode', Helvetica, Arial, sans-serif;
+}
+
+/* Add this CSS to your existing styles */
+
+blockquote {
+  background-color: #FFFFA8; /* Background color #FFFFA8 (red=255, green=255, blue=168) */
+  margin: 0 0 20px 0; /* Margin to create spacing around the blockquote */
+  padding: 10px 20px; /* Padding for better readability*/
+  font-style: italic; /* Set text inside blockquote to italic */
+}
+
+blockquote strong {
+  font-weight: bold; /* Make the text inside <strong> bold */
+}
+
+.pie-image {
+  display: block;
+   /* Center the image margin: 0 auto;*/
+}
+
+.pie-bullet {
+  list-style-image: url('../images/pie_bullet.png');
+  /*bullet image*/
+  margin-left: 20px;
+}
+
+a {
+  color: #A4A400;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+abbr[title] {
+  border-bottom: 1px dotted #A4A400;
+  cursor: help;
+}
+
+s {
+  text-decoration: line-through;
+}
+
+pre {
+  font-family: monospace;
+  text-align: center;
+}
